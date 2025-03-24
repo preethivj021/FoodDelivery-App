@@ -1,0 +1,43 @@
+
+.problem-container{
+    width: 350px;
+    height:170px;
+    background: #fff;
+    border-radius:10px;
+    margin-top: 50px;
+    margin-bottom:100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    color: #fff;
+    animation: problem 0.5s linear infinite;
+    line-height: 0;
+}
+.problem-container button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: tomato;
+    color: red;
+    font-size: 25px;
+    border: 1px solid #fff;
+}
+
+@keyframes problem {
+    0%{
+        left:49%;
+    }
+    50%{
+        left: 51%;
+    }
+    100%{
+        left: 49%;
+    }
+}

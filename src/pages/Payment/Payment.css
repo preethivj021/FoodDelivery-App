@@ -1,0 +1,20 @@
+.payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 0;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.payment-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-images img{
+    width:150px;
+    height: 70px;
+    transform: scale(0.6);
+}

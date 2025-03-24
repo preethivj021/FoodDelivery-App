@@ -1,0 +1,39 @@
+.specifications {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.specifications .child {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 30px;
+float: left;
+}
+.specifications .child div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin-left: 10px;
+  line-height: 0;
+  width: 200px;
+  margin-top: 20px;
+  
+ 
+}
+.specifications .child div p {
+  color: #808080;
+}
+.specifications img {
+  background-color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+.specifications #card {
+  padding: 40px;
+}
+hr {
+  margin-top: 20px;
+}
